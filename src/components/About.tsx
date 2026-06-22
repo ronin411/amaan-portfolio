@@ -22,10 +22,6 @@ export default function About() {
 
   return (
     <section className="about section-grid" id="about" ref={sectionRef}>
-      <span className="scroll-note" aria-hidden="true">
-        <span className="scroll-note__line" />Fade-in on scroll
-      </span>
-
       <div className="about__inner">
         <div className="about__main">
           <div className="about__label reveal">ABOUT</div>

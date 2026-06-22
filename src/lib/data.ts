@@ -173,7 +173,7 @@ export const EXP_CARDS: Record<string, ExpCard[]> = {
 
 export const METRICS = [
   { company: 'Personal Project', target: 697, prefix: '$', suffix: 'K', label: 'Churned MRR identified' },
-  { company: 'Tunez',           target: 6,   prefix: '',  suffix: '+', label: 'Competitor brands benchmarked' },
+  { company: 'Tunez',           target: 70,  prefix: '',  suffix: '+', label: 'Competitor brands benchmarked' },
   { company: 'Outlier AI',      target: 30,  prefix: '',  suffix: '%', label: 'Data reliability increase' },
   { company: 'Alignerr',        target: 25,  prefix: '',  suffix: '%', label: 'Evaluation consistency improvement' },
 ];

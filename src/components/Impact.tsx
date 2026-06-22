@@ -69,13 +69,6 @@ export default function Impact() {
 
   return (
     <section className="impact section-grid" id="impact" ref={sectionRef}>
-      <span className="counter-note" aria-hidden="true">
-        <span className="counter-note__dots">
-          <span /><span /><span />
-        </span>
-        Counter-up on scroll
-      </span>
-
       <div className="impact__inner">
         <div className="impact__header">
           <span className="impact__label reveal">IMPACT</span>

@@ -586,14 +586,14 @@ a { color: inherit; text-decoration: none; }
 .stack__label::before { content: "//"; color: var(--accent); opacity: 0.6; }
 .stack__rule { border: 0; border-top: 1px solid var(--border); flex: 1; margin: 0; }
 .stack__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px 56px; margin-bottom: 56px; }
-.group__head { font-family: var(--mono); font-size: 11px; letter-spacing: 0.32em; color: var(--accent); text-transform: uppercase; margin: 0 0 20px; display: inline-flex; align-items: center; gap: 10px; }
+.group__head { font-family: var(--mono); font-size: 13px; letter-spacing: 0.32em; color: var(--accent); text-transform: uppercase; margin: 0 0 20px; display: inline-flex; align-items: center; gap: 10px; }
 .group__head::before { content: "▸"; font-size: 12px; color: var(--accent); transform: translateY(-1px); }
 .group__chips { display: flex; flex-wrap: wrap; gap: 8px; }
-.chip { display: inline-flex; align-items: center; gap: 8px; height: 32px; padding: 0 14px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; font-family: var(--mono); font-size: 11px; letter-spacing: 0.04em; color: #d1d5db; transition: border-color 200ms ease, color 200ms ease, transform 200ms ease; cursor: default; }
+.chip { display: inline-flex; align-items: center; gap: 8px; height: 32px; padding: 0 14px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; font-family: var(--mono); font-size: 13px; letter-spacing: 0.04em; color: #d1d5db; transition: border-color 200ms ease, color 200ms ease, transform 200ms ease; cursor: default; }
 .chip:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
 .chip__icon { width: 16px; height: 16px; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; }
 .chip__icon svg { width: 100%; height: 100%; display: block; }
-.terminal { position: relative; background: #050505; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; font-family: var(--mono); font-size: 13px; line-height: 1.7; }
+.terminal { position: relative; background: #050505; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; font-family: var(--mono); font-size: 15px; line-height: 1.85; }
 .terminal__bar { display: flex; align-items: center; gap: 10px; padding: 10px 14px; background: #0a0a0a; border-bottom: 1px solid var(--border); }
 .terminal__bar .dots { display: inline-flex; gap: 6px; }
 .terminal__bar .dots span { width: 10px; height: 10px; border-radius: 50%; background: #1f1f1f; }
@@ -772,7 +772,7 @@ a { color: inherit; text-decoration: none; }
   .stack { padding-left: 20px; padding-right: 20px; }
   .stack__grid { grid-template-columns: 1fr !important; gap: 24px; }
   .group__chips { gap: 6px; }
-  .chip { font-size: 10px; padding: 0 11px; height: 30px; }
+  .chip { font-size: 12px; padding: 0 11px; height: 30px; }
   .projects { padding-left: 20px; padding-right: 20px; }
   .project { grid-template-columns: 60px 1fr; grid-template-areas: "num body" ".   tags" ".   view"; gap: 16px; padding: 28px 0; }
   .project:hover { padding-left: 16px; }
@@ -793,7 +793,7 @@ a { color: inherit; text-decoration: none; }
   .contact__pills { flex-direction: column; align-items: center; gap: 12px; }
   .footer__track { animation-duration: 70s; }
   .footer__item { font-size: 10px; padding: 0 18px; letter-spacing: 0.2em; }
-  .terminal__body { font-size: 11px; padding: 16px 14px 20px; }
+  .terminal__body { font-size: 13px; padding: 16px 14px 20px; }
 
   /* ── mobile canvas: company active state ── */
   /* hide non-active company nodes */
